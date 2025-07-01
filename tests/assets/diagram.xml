@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram>
+  <shapes>
+    <shape>
+      <id>1750236922798</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>100</x>
+      <y>100</y>
+      <width>100</width>
+      <height>50</height>
+    </shape>
+    <shape>
+      <id>1750236928851</id>
+      <type>goal2</type>
+      <title>Context</title>
+      <x>245</x>
+      <y>258</y>
+    </shape>
+  </shapes>
+  <connections>
+    <connection>
+      <id>conn-1750236932054</id>
+      <from>1750236922798</from>
+      <to>1750236928851</to>
+      <style>line</style>
+      <points>
+        <point x="150" y="150" />
+        <point x="245" y="283" />
+      </points>
+    </connection>
+  </connections>
+</diagram>
