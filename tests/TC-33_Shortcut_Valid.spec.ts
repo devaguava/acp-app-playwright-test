@@ -14,7 +14,7 @@ test('Menggunakan shortcut yang valid melalui keyboard', async ({ page }) => {
   const before = await target.screenshot();
 
   // Valid shortcut cut menggunakan keyboard
-  await page.locator('body').press('ControlOrMeta+x');
+  await page.locator('body').press('ControlOrMeta+z');
 
   // Verifikasi bahwa shortcut berhasil sesuai dengan kombinasi tombol keyboard yang ditekan
   const after = await target.screenshot();

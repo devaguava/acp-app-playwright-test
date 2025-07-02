@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Mengedit garis dengna mengubah arrowhead-nya', async ({ page }) => {
+test('Mengedit garis dengan mengubah arrowhead-nya', async ({ page }) => {
   // Arahkan ke halaman
   await page.goto('http://localhost:5173/');
   

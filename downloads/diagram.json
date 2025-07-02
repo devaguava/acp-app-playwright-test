@@ -1,0 +1,30 @@
+{
+  "shapes": [
+    {
+      "id": "1751454276052",
+      "type": "goal1",
+      "mainText": "Goals",
+      "title": "Goals",
+      "cornerRadius": 0,
+      "x": 100,
+      "y": 100,
+      "width": 160,
+      "height": 80,
+      "textX": 12,
+      "textY": 32,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    }
+  ],
+  "connections": [],
+  "metadata": {
+    "exportDate": "2025-07-02T11:04:39.136Z",
+    "version": "1.0"
+  }
+}

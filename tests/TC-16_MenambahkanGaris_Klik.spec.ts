@@ -18,7 +18,7 @@ test('Menambahkan garis ke kanvas dengan drag and drop menggunakan button', asyn
   const before = await kanvas.screenshot();
 
   // Klik tombol yang sesuai untuk memilih elemen garis (misalnya tombol untuk memilih garis)
-  await page.getByRole('button').filter({ hasText: /^$/ }).nth(3).click();
+  await page.getByRole('button').filter({ hasText: /^$/ }).nth(4).click();
   await page.getByRole('button', { name: 'InContextOf' }).click();
 
   // Tunggu sebentar untuk memastikan elemen siap

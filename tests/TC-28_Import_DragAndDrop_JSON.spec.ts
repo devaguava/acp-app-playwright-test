@@ -1,7 +1,7 @@
 import { test, expect, Locator } from '@playwright/test';
 import { readFileSync } from 'fs';
 
-test('Import file dalam format XML melalui drag&drop', async ({ page }) => {
+test('Import file dalam format JSON melalui drag&drop', async ({ page }) => {
   await page.goto('http://localhost:5173/');
   
   // Masuk ke kanvas
@@ -15,10 +15,10 @@ test('Import file dalam format XML melalui drag&drop', async ({ page }) => {
     await page.getByRole('button', { name: 'Import' }).click();
   
     // Temukan elemen target drop berdasarkan teks
-    const dropZoneLocator = page.locator('div').filter({ hasText: /^Drag and drop a file here, or$/ });
+    const dropZoneLocator = page.locator('div').filter({ hasText: /^Drag and drop file here, or click to selectSupports: .json, .xml$/ });
   
     // Simulasikan drag & drop file
-    await dragAndDropFile(dropZoneLocator, 'tests/assets/diagram.xml', 'diagram.xml', 'application/xml');
+    await dragAndDropFile(dropZoneLocator, 'tests/assets/diagram.json', 'diagram.json', 'application/json');
   
     // Verifikasi bahwa berhasil import
     const after = await target.screenshot();

@@ -10,10 +10,9 @@ test('Membuat Project', async ({ page }) => {
   // Buka dan Simpan event tab baru yang dibuka setelah mengklik "PROJECT"
   await page.getByRole('button', { name: 'PROJECT' }).click();
   const page1Promise = page.waitForEvent('popup');
-  await page.getByRole('button', { name: 'New Project' }).click();
+  await page.getByRole('button', { name: 'NEW PROJECT' }).click();
   const page1 = await page1Promise;
-  await page1.getByRole('button', { name: 'Start Without Template' }).click();
 
   // Verifikasi bahwa tab baru terbuka dengan URL yang sesuai
-  await expect(page1).toHaveURL(/\/project/);  // Ganti dengan pola URL yang sesuai
+  await expect(page1).toHaveURL(/\/canvas/);  // Ganti dengan pola URL yang sesuai
 });
