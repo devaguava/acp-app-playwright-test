@@ -32,6 +32,14 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
+  timeout: 60000,
+  webServer:{
+    command: 'npm run dev',
+    url: 'http://localhost:5173',
+    reuseExistingServer: !process.env.CI,
+    timeout: 120*1000
+  },
+
   /* Configure projects for major browsers */
   projects: [
     {

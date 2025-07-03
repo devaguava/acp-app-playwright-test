@@ -1,32 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diagram>
+<diagram version="1.0" created="2025-06-24T10:35:38.723Z">
   <shapes>
     <shape>
-      <id>1750236922798</id>
+      <id>goal1-1750761327752-rln33</id>
       <type>goal1</type>
       <title>Goals</title>
-      <x>100</x>
-      <y>100</y>
-      <width>100</width>
-      <height>50</height>
+      <x>240</x>
+      <y>48</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Complex Element</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
     </shape>
     <shape>
-      <id>1750236928851</id>
+      <id>goal2-1750761327752-asgmq</id>
       <type>goal2</type>
-      <title>Context</title>
-      <x>245</x>
-      <y>258</y>
+      <title>Sub Element 1</title>
+      <x>500</x>
+      <y>64</y>
+      <width>100</width>
+      <height>50</height>
+      <text>Sub Element 1</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal2-1750761327752-s6yh1</id>
+      <type>goal2</type>
+      <title>Sub Element 2</title>
+      <x>30</x>
+      <y>64</y>
+      <width>100</width>
+      <height>50</height>
+      <text>Sub Element 2</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal4-1750761327752-wem4j</id>
+      <type>goal4</type>
+      <title>Sub Element 3</title>
+      <x>240</x>
+      <y>250</y>
+      <width>150</width>
+      <height>60</height>
+      <text>Sub Element 3</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal1-1750761327752-vfzwn</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>40</x>
+      <y>450</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Sub Element 4</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal1-1750761327752-70li8</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>240</x>
+      <y>450</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Sub Element 4</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal1-1750761327752-1d3ej</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>440</x>
+      <y>450</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Sub Element 4</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal3-1750761327752-ratg7</id>
+      <type>goal3</type>
+      <title>Goals</title>
+      <x>60</x>
+      <y>600</y>
+      <width>110</width>
+      <height>100</height>
+      <text>Sub Element 5</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
+    </shape>
+    <shape>
+      <id>goal3-1750761327752-g95w3</id>
+      <type>goal3</type>
+      <title>Goals</title>
+      <x>360</x>
+      <y>600</y>
+      <width>110</width>
+      <height>100</height>
+      <text>Sub Element 5</text>
+      <fontFamily>Arial</fontFamily>
+      <fontSize>13</fontSize>
+      <fontWeight>normal</fontWeight>
+      <fontStyle>normal</fontStyle>
+      <align>center</align>
+      <textDecoration>none</textDecoration>
+      <interLine>normal</interLine>
     </shape>
   </shapes>
   <connections>
     <connection>
-      <id>conn-1750236932054</id>
-      <from>1750236922798</from>
-      <to>1750236928851</to>
+      <id>conn-1750761327752-ff9l7</id>
+      <from>goal1-1750761327752-rln33</from>
+      <to>goal2-1750761327752-asgmq</to>
       <style>line</style>
       <points>
-        <point x="150" y="150" />
-        <point x="245" y="283" />
+        <point x="390" y="88" />
+        <point x="500" y="89" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-r9z4c</id>
+      <from>goal1-1750761327752-rln33</from>
+      <to>goal2-1750761327752-s6yh1</to>
+      <style>line</style>
+      <points>
+        <point x="240" y="88" />
+        <point x="130" y="89" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-xgisc</id>
+      <from>goal1-1750761327752-rln33</from>
+      <to>goal4-1750761327752-wem4j</to>
+      <style>line</style>
+      <points>
+        <point x="315" y="128" />
+        <point x="315" y="250" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-02y3c</id>
+      <from>goal4-1750761327752-wem4j</from>
+      <to>goal1-1750761327752-vfzwn</to>
+      <style>line</style>
+      <points>
+        <point x="315" y="310" />
+        <point x="115" y="450" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-mnx94</id>
+      <from>goal4-1750761327752-wem4j</from>
+      <to>goal1-1750761327752-70li8</to>
+      <style>line</style>
+      <points>
+        <point x="315" y="310" />
+        <point x="315" y="450" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-gltbt</id>
+      <from>goal4-1750761327752-wem4j</from>
+      <to>goal1-1750761327752-1d3ej</to>
+      <style>line</style>
+      <points>
+        <point x="315" y="310" />
+        <point x="515" y="450" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-3c16l</id>
+      <from>goal1-1750761327752-vfzwn</from>
+      <to>goal3-1750761327752-ratg7</to>
+      <style>line</style>
+      <points>
+        <point x="115" y="530" />
+        <point x="115" y="600" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-zcp59</id>
+      <from>goal1-1750761327752-70li8</from>
+      <to>goal3-1750761327752-g95w3</to>
+      <style>line</style>
+      <points>
+        <point x="315" y="530" />
+        <point x="415" y="600" />
+      </points>
+    </connection>
+    <connection>
+      <id>conn-1750761327752-qeaxy</id>
+      <from>goal1-1750761327752-1d3ej</from>
+      <to>goal3-1750761327752-g95w3</to>
+      <style>line</style>
+      <points>
+        <point x="515" y="530" />
+        <point x="415" y="600" />
       </points>
     </connection>
   </connections>

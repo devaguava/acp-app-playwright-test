@@ -17,7 +17,7 @@ test('Mengedit notasi dengan menambahkan teks dan mengubah font pada notasi', as
 
   // Screenshot kanvas sebelum diedit
   const kanvas = page.locator('canvas').nth(1);
-  const before = await kanvas.screenshot();
+  const before = await kanvas.screenshot({path: 'tests/screenshots/TC-15/before.png'});
 
   // Mengedit Identifier notasi
   await page.getByRole('button', { name: 'Normal' }).first().click();
@@ -38,7 +38,7 @@ test('Mengedit notasi dengan menambahkan teks dan mengubah font pada notasi', as
   await page.waitForTimeout(500);
 
   // Verifikasi bahwa font berhasil diedit
-  const after = await kanvas.screenshot();
+  const after = await kanvas.screenshot({path: 'tests/screenshots/TC-15/after.png'});
   expect(before).not.toEqual(after);
   
 });

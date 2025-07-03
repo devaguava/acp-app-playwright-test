@@ -8,7 +8,7 @@ test('Menambahkan notasi baru ke kanvas dengan melakukan drag and drop', async (
 
   // Screenshot sebelum menambahkan notasi
   const target = page.locator('canvas').nth(1);
-  const before = await target.screenshot({path: 'tests/screenshots/TC-12/before.png'});
+  const before = await target.screenshot({path: 'tests/screenshots/TC-11/before.png'});
 
   // Lokator elemen notasi yang akan di drag
   const notasi = page.getByText('Goals').first();
@@ -31,6 +31,6 @@ test('Menambahkan notasi baru ke kanvas dengan melakukan drag and drop', async (
   // Verifikasi bahwa notasi muncul di kanvas
   await expect(kanvas).toBeVisible();
 
-  const after = await target.screenshot({path: 'tests/screenshots/TC-12/after.png'});
+  const after = await target.screenshot({path: 'tests/screenshots/TC-11/after.png'});
   expect(before).not.toEqual(after);
 });

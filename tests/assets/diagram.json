@@ -1,38 +1,222 @@
 {
   "shapes": [
     {
-      "id": "1750236922798",
       "type": "goal1",
       "title": "Goals",
-      "cornerRadius": 0,
-      "x": 100,
-      "y": 100,
-      "width": 100,
-      "height": 50
+      "x": 240,
+      "y": 48,
+      "width": 150,
+      "height": 80,
+      "text": "Complex Element",
+      "id": "goal1-1750403922021-u2bcz"
     },
     {
-      "id": "1750236928851",
       "type": "goal2",
-      "title": "Context",
-      "cornerRadius": 0,
-      "x": 245,
-      "y": 258
+      "title": "Sub Element 1",
+      "x": 500,
+      "y": 64,
+      "width": 100,
+      "height": 50,
+      "text": "Sub Element 1",
+      "id": "goal2-1750403922021-z3pmo"
+    },
+    {
+      "type": "goal2",
+      "title": "Sub Element 2",
+      "x": 30,
+      "y": 64,
+      "width": 100,
+      "height": 50,
+      "text": "Sub Element 2",
+      "id": "goal2-1750403922021-3qyqx"
+    },
+    {
+      "type": "goal4",
+      "title": "Sub Element 3",
+      "x": 240,
+      "y": 250,
+      "width": 150,
+      "height": 60,
+      "text": "Sub Element 3",
+      "id": "goal4-1750403922021-07a7f"
+    },
+    {
+      "type": "goal1",
+      "title": "Goals",
+      "x": 40,
+      "y": 450,
+      "width": 150,
+      "height": 80,
+      "text": "Sub Element 4",
+      "id": "goal1-1750403922021-wpn66"
+    },
+    {
+      "type": "goal1",
+      "title": "Goals",
+      "x": 240,
+      "y": 450,
+      "width": 150,
+      "height": 80,
+      "text": "Sub Element 4",
+      "id": "goal1-1750403922021-nmhwu"
+    },
+    {
+      "type": "goal1",
+      "title": "Goals",
+      "x": 440,
+      "y": 450,
+      "width": 150,
+      "height": 80,
+      "text": "Sub Element 4",
+      "id": "goal1-1750403922021-nd1wd"
+    },
+    {
+      "type": "goal3",
+      "title": "Goals",
+      "x": 60,
+      "y": 600,
+      "width": 110,
+      "height": 100,
+      "text": "Sub Element 5",
+      "id": "goal3-1750403922021-0y7be"
+    },
+    {
+      "type": "goal3",
+      "title": "Goals",
+      "x": 360,
+      "y": 600,
+      "width": 110,
+      "height": 100,
+      "text": "Sub Element 5",
+      "id": "goal3-1750403922021-tx55d"
     }
   ],
   "connections": [
     {
-      "id": "conn-1750236932054",
-      "from": "1750236922798",
-      "to": "1750236928851",
+      "id": "conn-1750403922021-om4lr",
+      "from": "goal1-1750403922021-u2bcz",
+      "to": "goal2-1750403922021-z3pmo",
       "points": [
-        150,
-        150,
-        245,
-        283
+        390,
+        88,
+        500,
+        89
+      ],
+      "style": "line",
+      "fromPoint": "right",
+      "toPoint": "left"
+    },
+    {
+      "id": "conn-1750403922021-aji8z",
+      "from": "goal1-1750403922021-u2bcz",
+      "to": "goal2-1750403922021-3qyqx",
+      "points": [
+        240,
+        88,
+        130,
+        89
+      ],
+      "style": "line",
+      "fromPoint": "left",
+      "toPoint": "right"
+    },
+    {
+      "id": "conn-1750403922021-ug2yt",
+      "from": "goal1-1750403922021-u2bcz",
+      "to": "goal4-1750403922021-07a7f",
+      "points": [
+        315,
+        128,
+        315,
+        250
       ],
       "style": "line",
       "fromPoint": "bottom",
-      "toPoint": "left"
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1750403922021-78pe7",
+      "from": "goal4-1750403922021-07a7f",
+      "to": "goal1-1750403922021-wpn66",
+      "points": [
+        315,
+        310,
+        115,
+        450
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1750403922021-slqp8",
+      "from": "goal4-1750403922021-07a7f",
+      "to": "goal1-1750403922021-nmhwu",
+      "points": [
+        315,
+        310,
+        315,
+        450
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1750403922021-qzx5c",
+      "from": "goal4-1750403922021-07a7f",
+      "to": "goal1-1750403922021-nd1wd",
+      "points": [
+        315,
+        310,
+        515,
+        450
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1750403922021-pfop1",
+      "from": "goal1-1750403922021-wpn66",
+      "to": "goal3-1750403922021-0y7be",
+      "points": [
+        115,
+        530,
+        115,
+        600
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1750403922021-xssnf",
+      "from": "goal1-1750403922021-nmhwu",
+      "to": "goal3-1750403922021-tx55d",
+      "points": [
+        315,
+        530,
+        415,
+        600
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1750403922021-fd52z",
+      "from": "goal1-1750403922021-nd1wd",
+      "to": "goal3-1750403922021-tx55d",
+      "points": [
+        515,
+        530,
+        415,
+        600
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
     }
   ]
 }

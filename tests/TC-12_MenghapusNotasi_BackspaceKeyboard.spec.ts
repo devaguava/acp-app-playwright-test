@@ -11,7 +11,7 @@ test('Menghapus notasi di kanvas dengan menggunakan tombol backspace pada keyboa
 
   // Screenshot sebelum penghapusan
   const target = page.locator('canvas').nth(1);
-  const before = await target.screenshot();
+  const before = await target.screenshot({path: 'tests/screenshots/TC-12/before.png'});
   
   // Klik notasi yang akan dihapus pada kanvas
   await target.click({ position: {x: 180, y: 133} });
@@ -21,7 +21,7 @@ test('Menghapus notasi di kanvas dengan menggunakan tombol backspace pada keyboa
   await page.waitForTimeout(500);
 
   // Verifikasi bahwa notasi terhapus dari kanvas
-  const after = await target.screenshot();
+  const after = await target.screenshot({path: 'tests/screenshots/TC-12/after.png'});
   expect(before).not.toEqual(after);
 
 });

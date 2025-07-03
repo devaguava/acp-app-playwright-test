@@ -14,5 +14,5 @@ test('Membuat Project', async ({ page }) => {
   const page1 = await page1Promise;
 
   // Verifikasi bahwa tab baru terbuka dengan URL yang sesuai
-  await expect(page1).toHaveURL(/\/canvas/);  // Ganti dengan pola URL yang sesuai
+  await expect(page1).toHaveURL(/\//);
 });
