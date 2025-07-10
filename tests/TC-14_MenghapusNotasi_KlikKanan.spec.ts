@@ -17,7 +17,7 @@ test('Menghapus notasi di kanvas dengan menggunakan klik kanan pada notasi', asy
   await target.click({ position: {x: 180, y: 133}, button: 'right' });
 
   // Pilih opsi untuk menghapus di context menu
-  await page.locator('div').filter({ hasText: /^Hapus Shape$/ }).nth(4).click();
+  await page.locator('div').filter({ hasText: /^Delete Shape$/ }).nth(4).click();
   await page.waitForTimeout(500);
 
   // Verifikasi bahwa notasi terhapus dari kanvas

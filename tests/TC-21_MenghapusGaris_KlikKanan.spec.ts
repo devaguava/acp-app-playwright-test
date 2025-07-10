@@ -21,7 +21,7 @@ test('Menghapus garis di kanvas dengan menggunakan klik kanan pada garis', async
   });
 
   // Pilih opsi untuk menghapus di context menu
-  await page.locator('div').filter({ hasText: /^Hapus Koneksi$/ }).nth(4).click();
+  await page.locator('div').filter({ hasText: /^Delete Connection$/ }).nth(4).click();
   await page.waitForTimeout(500);
 
   // Klik notasi yang akan dihapus pada kanvas
@@ -34,7 +34,7 @@ test('Menghapus garis di kanvas dengan menggunakan klik kanan pada garis', async
   });
 
   // Pilih opsi untuk menghapus di context menu
-  await page.locator('div').filter({ hasText: /^Hapus Koneksi$/ }).nth(4).click();
+  await page.locator('div').filter({ hasText: /^Delete Connection$/ }).nth(4).click();
   await page.waitForTimeout(500);
 
   // Verifikasi bahwa notasi terhapus dari kanvas
