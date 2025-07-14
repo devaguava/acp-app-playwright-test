@@ -1,20 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diagram>
   <metadata>
-    <exportDate>2025-07-10T00:55:19.169Z</exportDate>
+    <exportDate>2025-07-14T16:56:18.976Z</exportDate>
     <version>1.0</version>
   </metadata>
   <shapes>
     <shape>
-      <id>1752108918049</id>
+      <id>goal1-1752512177869-y0ror</id>
       <type>goal1</type>
       <title>Goals</title>
-      <x>100</x>
-      <y>100</y>
-      <width>160</width>
+      <x>240</x>
+      <y>48</y>
+      <width>150</width>
       <height>80</height>
+      <text>Complex Element</text>
+    </shape>
+    <shape>
+      <id>goal2-1752512177870-55g1i</id>
+      <type>goal2</type>
+      <title>Sub Element 1</title>
+      <x>500</x>
+      <y>64</y>
+      <width>100</width>
+      <height>50</height>
+      <text>Sub Element 1</text>
+    </shape>
+    <shape>
+      <id>goal2-1752512177870-qn8pf</id>
+      <type>goal2</type>
+      <title>Sub Element 2</title>
+      <x>30</x>
+      <y>64</y>
+      <width>100</width>
+      <height>50</height>
+      <text>Sub Element 2</text>
+    </shape>
+    <shape>
+      <id>goal4-1752512177870-gwyxi</id>
+      <type>goal4</type>
+      <title>Sub Element 3</title>
+      <x>240</x>
+      <y>250</y>
+      <width>150</width>
+      <height>60</height>
+      <text>Sub Element 3</text>
+    </shape>
+    <shape>
+      <id>goal1-1752512177870-kzrps</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>40</x>
+      <y>450</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Sub Element 4</text>
+    </shape>
+    <shape>
+      <id>goal1-1752512177870-js1sp</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>240</x>
+      <y>450</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Sub Element 4</text>
+    </shape>
+    <shape>
+      <id>goal1-1752512177870-bm8n0</id>
+      <type>goal1</type>
+      <title>Goals</title>
+      <x>440</x>
+      <y>450</y>
+      <width>150</width>
+      <height>80</height>
+      <text>Sub Element 4</text>
+    </shape>
+    <shape>
+      <id>goal3-1752512177870-83zk6</id>
+      <type>goal3</type>
+      <title>Goals</title>
+      <x>60</x>
+      <y>600</y>
+      <width>110</width>
+      <height>100</height>
+      <text>Sub Element 5</text>
+    </shape>
+    <shape>
+      <id>goal3-1752512177870-ygoxa</id>
+      <type>goal3</type>
+      <title>Goals</title>
+      <x>360</x>
+      <y>600</y>
+      <width>110</width>
+      <height>100</height>
+      <text>Sub Element 5</text>
     </shape>
   </shapes>
   <connections>
+    <connection>
+      <id>conn-1752512177870-9m88z</id>
+      <from>goal1-1752512177869-y0ror</from>
+      <to>goal2-1752512177870-55g1i</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-fu0td</id>
+      <from>goal1-1752512177869-y0ror</from>
+      <to>goal2-1752512177870-qn8pf</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-kjr79</id>
+      <from>goal1-1752512177869-y0ror</from>
+      <to>goal4-1752512177870-gwyxi</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-h0xg2</id>
+      <from>goal4-1752512177870-gwyxi</from>
+      <to>goal1-1752512177870-kzrps</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-cz2vo</id>
+      <from>goal4-1752512177870-gwyxi</from>
+      <to>goal1-1752512177870-js1sp</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-i32l7</id>
+      <from>goal4-1752512177870-gwyxi</from>
+      <to>goal1-1752512177870-bm8n0</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-6hvj1</id>
+      <from>goal1-1752512177870-kzrps</from>
+      <to>goal3-1752512177870-83zk6</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-uhgzp</id>
+      <from>goal1-1752512177870-js1sp</from>
+      <to>goal3-1752512177870-ygoxa</to>
+    </connection>
+    <connection>
+      <id>conn-1752512177870-gol8l</id>
+      <from>goal1-1752512177870-bm8n0</from>
+      <to>goal3-1752512177870-ygoxa</to>
+    </connection>
   </connections>
 </diagram>

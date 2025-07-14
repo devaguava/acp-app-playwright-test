@@ -1,15 +1,14 @@
 {
   "shapes": [
     {
-      "id": "1752108912776",
       "type": "goal1",
-      "mainText": "Goals",
       "title": "Goals",
-      "cornerRadius": 0,
-      "x": 100,
-      "y": 100,
-      "width": 160,
+      "x": 240,
+      "y": 48,
+      "width": 150,
       "height": 80,
+      "text": "Complex Element",
+      "id": "goal1-1752512172244-k4o09",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -20,11 +19,298 @@
       "align": "center",
       "textDecoration": "none",
       "interLine": "normal"
+    },
+    {
+      "type": "goal2",
+      "title": "Sub Element 1",
+      "x": 500,
+      "y": 64,
+      "width": 100,
+      "height": 50,
+      "text": "Sub Element 1",
+      "id": "goal2-1752512172244-zjsvv",
+      "textX": 12,
+      "textY": 17,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal2",
+      "title": "Sub Element 2",
+      "x": 30,
+      "y": 64,
+      "width": 100,
+      "height": 50,
+      "text": "Sub Element 2",
+      "id": "goal2-1752512172244-ebebd",
+      "textX": 12,
+      "textY": 17,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal4",
+      "title": "Sub Element 3",
+      "x": 240,
+      "y": 250,
+      "width": 150,
+      "height": 60,
+      "text": "Sub Element 3",
+      "id": "goal4-1752512172244-p8yl3",
+      "textX": 12,
+      "textY": 22,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal1",
+      "title": "Goals",
+      "x": 40,
+      "y": 450,
+      "width": 150,
+      "height": 80,
+      "text": "Sub Element 4",
+      "id": "goal1-1752512172244-9ggmk",
+      "textX": 12,
+      "textY": 32,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal1",
+      "title": "Goals",
+      "x": 240,
+      "y": 450,
+      "width": 150,
+      "height": 80,
+      "text": "Sub Element 4",
+      "id": "goal1-1752512172244-ov807",
+      "textX": 12,
+      "textY": 32,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal1",
+      "title": "Goals",
+      "x": 440,
+      "y": 450,
+      "width": 150,
+      "height": 80,
+      "text": "Sub Element 4",
+      "id": "goal1-1752512172244-xktak",
+      "textX": 12,
+      "textY": 32,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal3",
+      "title": "Goals",
+      "x": 60,
+      "y": 600,
+      "width": 110,
+      "height": 100,
+      "text": "Sub Element 5",
+      "id": "goal3-1752512172244-o0pwz",
+      "textX": 12,
+      "textY": 42,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
+    },
+    {
+      "type": "goal3",
+      "title": "Goals",
+      "x": 360,
+      "y": 600,
+      "width": 110,
+      "height": 100,
+      "text": "Sub Element 5",
+      "id": "goal3-1752512172244-3wyhp",
+      "textX": 12,
+      "textY": 42,
+      "fontSize": 13,
+      "fontSizeId": 13,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "align": "center",
+      "textDecoration": "none",
+      "interLine": "normal"
     }
   ],
-  "connections": [],
+  "connections": [
+    {
+      "id": "conn-1752512172245-2cc5s",
+      "from": "goal1-1752512172244-k4o09",
+      "to": "goal2-1752512172244-zjsvv",
+      "points": [
+        390,
+        88,
+        500,
+        89
+      ],
+      "style": "line",
+      "fromPoint": "right",
+      "toPoint": "left"
+    },
+    {
+      "id": "conn-1752512172245-qvwrk",
+      "from": "goal1-1752512172244-k4o09",
+      "to": "goal2-1752512172244-ebebd",
+      "points": [
+        240,
+        88,
+        130,
+        89
+      ],
+      "style": "line",
+      "fromPoint": "left",
+      "toPoint": "right"
+    },
+    {
+      "id": "conn-1752512172245-gxsrx",
+      "from": "goal1-1752512172244-k4o09",
+      "to": "goal4-1752512172244-p8yl3",
+      "points": [
+        315,
+        128,
+        315,
+        250
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1752512172245-zzvjg",
+      "from": "goal4-1752512172244-p8yl3",
+      "to": "goal1-1752512172244-9ggmk",
+      "points": [
+        315,
+        310,
+        115,
+        450
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1752512172245-31s0z",
+      "from": "goal4-1752512172244-p8yl3",
+      "to": "goal1-1752512172244-ov807",
+      "points": [
+        315,
+        310,
+        315,
+        450
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1752512172245-vxa9j",
+      "from": "goal4-1752512172244-p8yl3",
+      "to": "goal1-1752512172244-xktak",
+      "points": [
+        315,
+        310,
+        515,
+        450
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1752512172245-3c2ra",
+      "from": "goal1-1752512172244-9ggmk",
+      "to": "goal3-1752512172244-o0pwz",
+      "points": [
+        115,
+        530,
+        115,
+        600
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1752512172245-xtaty",
+      "from": "goal1-1752512172244-ov807",
+      "to": "goal3-1752512172244-3wyhp",
+      "points": [
+        315,
+        530,
+        415,
+        600
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    },
+    {
+      "id": "conn-1752512172245-givyv",
+      "from": "goal1-1752512172244-xktak",
+      "to": "goal3-1752512172244-3wyhp",
+      "points": [
+        515,
+        530,
+        415,
+        600
+      ],
+      "style": "line",
+      "fromPoint": "bottom",
+      "toPoint": "top"
+    }
+  ],
   "metadata": {
-    "exportDate": "2025-07-10T00:55:13.748Z",
+    "exportDate": "2025-07-14T16:56:13.840Z",
     "version": "1.0"
   }
 }

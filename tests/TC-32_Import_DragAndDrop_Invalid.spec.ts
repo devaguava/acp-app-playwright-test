@@ -27,7 +27,7 @@ test('Import file dengan melakukan drag&drop file dalam format selain JSON dan X
   
   // Upload file ke elemen input file
   await fileInputLocator.setInputFiles(filePath);
-  await page.waitForTimeout(10000);
+  await page.waitForTimeout(5000);
 
   // Menunggu dan memeriksa apakah pesan kesalahan muncul
   const errorMessageLocator = page.getByText(/unsupported file format/i);
