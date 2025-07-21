@@ -13,4 +13,5 @@ test('Menggunakan search bar dengan keyword yang valid', async ({ page }) => {
   // Verifikasi bahwa notasi yang dicari muncul
   const result = page.locator('div').filter({hasText: /^Strategy$/}).nth(1);
   await expect(result).toBeVisible;
+  await page.screenshot({path: 'tests/screenshots/TC-08/after.png'});
 });

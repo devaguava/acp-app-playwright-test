@@ -26,6 +26,8 @@ test('Export file dalam format JSON', async ({ page }) => {
 
   // Klik tombol JSON
   await page.getByRole('button', { name: 'JSON' }).click();
+  await page.waitForTimeout(500);
+  await page.screenshot({path: 'tests/screenshots/TC-24/process.png'});
 
   // Tunggu file download
   const download = await downloadPromise;

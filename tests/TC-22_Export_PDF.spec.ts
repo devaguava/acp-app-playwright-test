@@ -26,6 +26,8 @@ test('Export file dalam format PDF', async ({ page }) => {
 
   // Klik tombol PDF
   await page.getByRole('button', { name: 'PDF' }).click();
+  await page.waitForTimeout(1000);
+  await page.screenshot({path: 'tests/screenshots/TC-22/process.png'});
 
   // Tunggu file download
   const download = await downloadPromise;

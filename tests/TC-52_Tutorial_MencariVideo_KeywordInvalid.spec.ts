@@ -12,7 +12,7 @@ test('Mencari video pada kolom pencarian di tab tutorial dengan keyword yang inv
 
   // Screenshot sebelum memasukan keyword
 //   const target = page.locator('canvas').nth(1);
-  const before = await page.screenshot({ path: 'tests/screenshots/TC-38/before.png' });
+  const before = await page.screenshot({ path: 'tests/screenshots/TC-52/before.png' });
 
   // Masukkan Keyword
   await page.getByRole('textbox', { name: 'Placeholder' }).click();
@@ -21,7 +21,7 @@ test('Mencari video pada kolom pencarian di tab tutorial dengan keyword yang inv
 
   // Verifikasi bahwa tidak menampilkan satupun tutorial karena keyword invalid
   expect(page.getByText('Tidak ada video'));
-  const after = await page.screenshot({ path: 'tests/screenshots/TC-38/after.png', fullPage: true });
+  const after = await page.screenshot({ path: 'tests/screenshots/TC-52/after.png', fullPage: true });
   expect(before).not.toEqual(after);
 
 });

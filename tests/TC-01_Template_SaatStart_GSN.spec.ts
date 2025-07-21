@@ -12,5 +12,8 @@ test('Memilih template saat awal masuk app', async ({ page }) => {
   // Verifikasi bahwa template muncul di kanvas
   const kanvas = page.locator('canvas').nth(1);
   await expect(kanvas).toBeVisible();
-  await kanvas.click({position: {x: 311, y: 274}});
+  const expected = 'tests/screenshots/TC-03/after.png';
+  const actual = await kanvas.screenshot({path: 'tests/screenshots/TC-01/actual.png'});
+  expect(expected).not.toEqual(actual);
+  // await kanvas.click({position: {x: 311, y: 274}});
 });

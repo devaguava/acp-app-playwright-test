@@ -8,7 +8,7 @@
       "width": 150,
       "height": 80,
       "text": "Complex Element",
-      "id": "goal1-1752512172244-k4o09",
+      "id": "goal1-1753128472726-gbkhl",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -28,7 +28,7 @@
       "width": 100,
       "height": 50,
       "text": "Sub Element 1",
-      "id": "goal2-1752512172244-zjsvv",
+      "id": "goal2-1753128472726-myuaj",
       "textX": 12,
       "textY": 17,
       "fontSize": 13,
@@ -48,7 +48,7 @@
       "width": 100,
       "height": 50,
       "text": "Sub Element 2",
-      "id": "goal2-1752512172244-ebebd",
+      "id": "goal2-1753128472726-ugpnp",
       "textX": 12,
       "textY": 17,
       "fontSize": 13,
@@ -68,7 +68,7 @@
       "width": 150,
       "height": 60,
       "text": "Sub Element 3",
-      "id": "goal4-1752512172244-p8yl3",
+      "id": "goal4-1753128472726-udmcw",
       "textX": 12,
       "textY": 22,
       "fontSize": 13,
@@ -88,7 +88,7 @@
       "width": 150,
       "height": 80,
       "text": "Sub Element 4",
-      "id": "goal1-1752512172244-9ggmk",
+      "id": "goal1-1753128472726-r18w6",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -108,7 +108,7 @@
       "width": 150,
       "height": 80,
       "text": "Sub Element 4",
-      "id": "goal1-1752512172244-ov807",
+      "id": "goal1-1753128472726-dhwbp",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -128,7 +128,7 @@
       "width": 150,
       "height": 80,
       "text": "Sub Element 4",
-      "id": "goal1-1752512172244-xktak",
+      "id": "goal1-1753128472726-l3sw1",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -148,7 +148,7 @@
       "width": 110,
       "height": 100,
       "text": "Sub Element 5",
-      "id": "goal3-1752512172244-o0pwz",
+      "id": "goal3-1753128472726-k7atd",
       "textX": 12,
       "textY": 42,
       "fontSize": 13,
@@ -168,7 +168,7 @@
       "width": 110,
       "height": 100,
       "text": "Sub Element 5",
-      "id": "goal3-1752512172244-3wyhp",
+      "id": "goal3-1753128472726-pd6jk",
       "textX": 12,
       "textY": 42,
       "fontSize": 13,
@@ -183,9 +183,9 @@
   ],
   "connections": [
     {
-      "id": "conn-1752512172245-2cc5s",
-      "from": "goal1-1752512172244-k4o09",
-      "to": "goal2-1752512172244-zjsvv",
+      "id": "conn-1753128472726-rcsca",
+      "from": "goal1-1753128472726-gbkhl",
+      "to": "goal2-1753128472726-myuaj",
       "points": [
         390,
         88,
@@ -197,9 +197,9 @@
       "toPoint": "left"
     },
     {
-      "id": "conn-1752512172245-qvwrk",
-      "from": "goal1-1752512172244-k4o09",
-      "to": "goal2-1752512172244-ebebd",
+      "id": "conn-1753128472726-c5jle",
+      "from": "goal1-1753128472726-gbkhl",
+      "to": "goal2-1753128472726-ugpnp",
       "points": [
         240,
         88,
@@ -211,9 +211,9 @@
       "toPoint": "right"
     },
     {
-      "id": "conn-1752512172245-gxsrx",
-      "from": "goal1-1752512172244-k4o09",
-      "to": "goal4-1752512172244-p8yl3",
+      "id": "conn-1753128472726-23c18",
+      "from": "goal1-1753128472726-gbkhl",
+      "to": "goal4-1753128472726-udmcw",
       "points": [
         315,
         128,
@@ -225,9 +225,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1752512172245-zzvjg",
-      "from": "goal4-1752512172244-p8yl3",
-      "to": "goal1-1752512172244-9ggmk",
+      "id": "conn-1753128472726-jsrz1",
+      "from": "goal4-1753128472726-udmcw",
+      "to": "goal1-1753128472726-r18w6",
       "points": [
         315,
         310,
@@ -239,9 +239,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1752512172245-31s0z",
-      "from": "goal4-1752512172244-p8yl3",
-      "to": "goal1-1752512172244-ov807",
+      "id": "conn-1753128472726-23tq5",
+      "from": "goal4-1753128472726-udmcw",
+      "to": "goal1-1753128472726-dhwbp",
       "points": [
         315,
         310,
@@ -253,9 +253,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1752512172245-vxa9j",
-      "from": "goal4-1752512172244-p8yl3",
-      "to": "goal1-1752512172244-xktak",
+      "id": "conn-1753128472726-lq8q8",
+      "from": "goal4-1753128472726-udmcw",
+      "to": "goal1-1753128472726-l3sw1",
       "points": [
         315,
         310,
@@ -267,9 +267,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1752512172245-3c2ra",
-      "from": "goal1-1752512172244-9ggmk",
-      "to": "goal3-1752512172244-o0pwz",
+      "id": "conn-1753128472726-g36hd",
+      "from": "goal1-1753128472726-r18w6",
+      "to": "goal3-1753128472726-k7atd",
       "points": [
         115,
         530,
@@ -281,9 +281,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1752512172245-xtaty",
-      "from": "goal1-1752512172244-ov807",
-      "to": "goal3-1752512172244-3wyhp",
+      "id": "conn-1753128472726-61vxu",
+      "from": "goal1-1753128472726-dhwbp",
+      "to": "goal3-1753128472726-pd6jk",
       "points": [
         315,
         530,
@@ -295,9 +295,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1752512172245-givyv",
-      "from": "goal1-1752512172244-xktak",
-      "to": "goal3-1752512172244-3wyhp",
+      "id": "conn-1753128472726-7loz5",
+      "from": "goal1-1753128472726-l3sw1",
+      "to": "goal3-1753128472726-pd6jk",
       "points": [
         515,
         530,
@@ -310,7 +310,7 @@
     }
   ],
   "metadata": {
-    "exportDate": "2025-07-14T16:56:13.840Z",
+    "exportDate": "2025-07-21T20:07:53.950Z",
     "version": "1.0"
   }
 }

@@ -12,5 +12,5 @@ test('Menggunakan search bar dengan keyword yang invalid"', async ({ page }) => 
 
   // Verifikasi bahwa notasi yang dicari tidak muncul
   await expect(page.getByText('Tidak ada hasil yang ditemukan')).toBeVisible;
-  
+  await page.screenshot({path: 'tests/screenshots/TC-09/after.png'});
 });

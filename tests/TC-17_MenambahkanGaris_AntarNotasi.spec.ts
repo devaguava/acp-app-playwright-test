@@ -29,5 +29,6 @@ test('Menambahkan garis antar notasi', async ({ page }) => {
   // Verifikasi bahwa pengaturan garis muncul di panel kanan
   const lineSettingsPanel = page.getByText('Line Style');
   await expect(lineSettingsPanel).toBeVisible();
+  await page.screenshot({path: 'tests/screenshots/TC-17/after.png'});
 
 });

@@ -9,7 +9,7 @@ test('Menghapus garis di kanvas dengan menggunakan klik kanan pada garis', async
 
   // Screenshot sebelum penghapusan
   const target = page.locator('canvas').nth(1);
-  const before = await target.screenshot();
+  const before = await target.screenshot({path: 'tests/screenshots/TC-21/before.png'});
 
   // Klik notasi yang akan dihapus pada kanvas
   await page.locator('canvas').nth(1).click({
@@ -34,10 +34,13 @@ test('Menghapus garis di kanvas dengan menggunakan klik kanan pada garis', async
   });
 
   // Pilih opsi untuk menghapus di context menu
-  await page.locator('div').filter({ hasText: /^Delete Connection$/ }).nth(4).click();
+  const process = await page.locator('div').filter({ hasText: /^Delete Connection$/ }).nth(4);
+  await page.waitForTimeout(500);
+  await page.screenshot({path: 'tests/screenshots/TC-21/process.png'});
+  await process.click();
   await page.waitForTimeout(500);
 
   // Verifikasi bahwa notasi terhapus dari kanvas
-  const after = await target.screenshot();
+  const after = await target.screenshot({path: 'tests/screenshots/TC-21/after.png'});
   expect(before).not.toEqual(after);
 });

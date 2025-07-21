@@ -12,7 +12,7 @@ test('Mencari video pada kolom pencarian di tab tutorial dengan keyword yang val
 
   // Screenshot sebelum memasukan keyword
 //   const target = page.locator('canvas').nth(1);
-  const before = await page.screenshot({ path: 'tests/screenshots/TC-37/before.png' });
+  const before = await page.screenshot({ path: 'tests/screenshots/TC-51/before.png' });
 
   // Masukkan Keyword
   await page.getByRole('textbox', { name: 'Placeholder' }).click();
@@ -20,7 +20,7 @@ test('Mencari video pada kolom pencarian di tab tutorial dengan keyword yang val
   await page.waitForTimeout(1000);
 
   // Verifikasi bahwa berhasil mencari tutorial menggunakan kolom pencarian berdasarkan keyword
-  const after = await page.screenshot({ path: 'tests/screenshots/TC-37/after.png', fullPage: true });
+  const after = await page.screenshot({ path: 'tests/screenshots/TC-51/after.png', fullPage: true });
   expect(before).not.toEqual(after);
 
 });

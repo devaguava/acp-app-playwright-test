@@ -26,6 +26,8 @@ test('Export file dalam format PNG', async ({ page }) => {
 
   // Klik tombol PNG
   await page.getByRole('button', { name: 'PNG' }).click();
+  await page.waitForTimeout(100);
+  await page.screenshot({path: 'tests/screenshots/TC-23/process.png'});
 
   // Tunggu file download
   const download = await downloadPromise;

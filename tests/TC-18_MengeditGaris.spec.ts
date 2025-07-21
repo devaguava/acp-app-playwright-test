@@ -13,7 +13,7 @@ test('Mengedit garis dengan mengubah arrowhead-nya', async ({ page }) => {
   await expect(canvas).toBeVisible();
 
   // Screenshot kanvas sebelum melakukan pengeditan pada garis
-  const before = await page.locator('canvas').nth(1).screenshot();
+  const before = await page.locator('canvas').nth(1).screenshot({path: 'tests/screenshots/TC-18/before.png'});
 
   // Menghubungkan dua notasi dengan klik ujung notasi pertama dan kedua
   await canvas.click({
@@ -54,7 +54,7 @@ test('Mengedit garis dengan mengubah arrowhead-nya', async ({ page }) => {
   await page.getByRole('button', { name: 'SupportedBy'}).click(); 
 
   // Screenshot kanvas setelah melakukan pengeditan pada garis
-  const after = await page.locator('canvas').nth(1).screenshot();
+  const after = await page.locator('canvas').nth(1).screenshot({path: 'tests/screenshots/TC-18/after.png'});
 
   // Verifikasi bahwa garis berhasil diedit
   expect(before).not.toEqual(after);

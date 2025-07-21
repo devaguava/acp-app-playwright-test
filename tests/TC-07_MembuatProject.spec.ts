@@ -15,4 +15,5 @@ test('Membuat Project', async ({ page }) => {
 
   // Verifikasi bahwa tab baru terbuka dengan URL yang sesuai
   await expect(page1).toHaveURL(/\//);
+  await page.screenshot({path: 'tests/screenshots/TC-07/after.png'});
 });

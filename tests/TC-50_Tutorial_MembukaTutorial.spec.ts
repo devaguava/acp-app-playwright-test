@@ -7,8 +7,7 @@ test('Membuka Tutorial', async ({ page }) => {
   await page.getByRole('button', { name: 'Start Without Template' }).click();
 
   // Screenshot sebelum membuka menu App Guide
-  const target = page.locator('canvas').nth(1);
-  const before = await target.screenshot({ path: 'tests/screenshots/TC-36/before.png' });
+  const before = await page.screenshot({ path: 'tests/screenshots/TC-50/before.png' });
 
   // Klik App Guide
   await page.getByRole('button', { name: 'Open app guide' }).click();
@@ -17,7 +16,7 @@ test('Membuka Tutorial', async ({ page }) => {
 //   await page.locator('iframe[title="Create Diagram"]').contentFrame().getByRole('button', { name: 'Full screen keyboard shortcut' }).click();
 
   // Verifikasi bahwa berhasil membuka tutorial
-  const after = await target.screenshot({ path: 'tests/screenshots/TC-36/after.png' });
+  const after = await page.screenshot({ path: 'tests/screenshots/TC-50/after.png' });
   expect(before).not.toEqual(after);
 
 });

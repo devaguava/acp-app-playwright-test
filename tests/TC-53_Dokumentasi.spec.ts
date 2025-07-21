@@ -8,14 +8,14 @@ test('Membuka Dokumentasi', async ({ page }) => {
 
   // Screenshot sebelum membuka dokumentasi
 //   const target = page.locator('canvas').nth(1);
-  const before = await page.screenshot({ path: 'tests/screenshots/TC-39/before.png' });
+  const before = await page.screenshot({ path: 'tests/screenshots/TC-53/before.png' });
 
   // Klik App Guide
   await page.getByRole('button', { name: 'Open notation guide' }).click();
   await page.waitForTimeout(2000);
 
   // Verifikasi bahwa berhasil membuka dokumentasi
-  const after = await page.screenshot({ path: 'tests/screenshots/TC-39/after.png', fullPage: true });
+  const after = await page.screenshot({ path: 'tests/screenshots/TC-53/after.png', fullPage: true });
   expect(before).not.toEqual(after);
 
 });

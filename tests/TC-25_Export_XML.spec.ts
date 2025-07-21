@@ -26,6 +26,8 @@ test('Export file dalam format XML', async ({ page }) => {
 
   // Klik tombol XML
   await page.getByRole('button', { name: 'XML' }).click();
+  await page.waitForTimeout(100);
+  await page.screenshot({path: 'tests/screenshots/TC-25/process.png'});
 
   // Tunggu file download
   const download = await downloadPromise;
