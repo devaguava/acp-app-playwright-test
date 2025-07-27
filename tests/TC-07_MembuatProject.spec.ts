@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Membuat Project', async ({ page }) => {
+test('Membuat Project Baru', async ({ page }) => {
   // Arahkan ke halaman utama
   await page.goto('http://localhost:5173/');
 
