@@ -1,6 +1,6 @@
  import { test, expect } from '@playwright/test';
 
-test('Memilih template saat sudah memasuki halaman kanvas', async ({ page }) => {
+test('Memilih template GSN saat sudah memasuki halaman kanvas', async ({ page }) => {
   await page.goto('http://localhost:5173/');
 
   // Masuk ke kanvas

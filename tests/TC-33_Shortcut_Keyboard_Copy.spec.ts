@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Menggunakan shortcut yang valid melalui keyboard', async ({ page }) => {
+test('Menggunakan shortcut "Copy" yang valid melalui keyboard', async ({ page }) => {
   await page.goto('http://localhost:5173/');
   
   // Masuk ke kanvas

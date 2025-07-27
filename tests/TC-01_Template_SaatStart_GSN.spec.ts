@@ -1,6 +1,6 @@
  import { test, expect } from '@playwright/test';
 
-test('Memilih template saat awal masuk app', async ({ page }) => {
+test('Memilih template saat awal masuk aplikasi', async ({ page }) => {
   await page.goto('http://localhost:5173/');
 
   // Klik button "Use a Template"

@@ -3,7 +3,7 @@ import fs from 'fs';
 import pixelmatch from 'pixelmatch';
 import { PNG } from 'pngjs';
 
-test('Menggambar garis dengan klik-tahan-lepas dari titik A ke titik B', async ({ page }) => {
+test('Menambahkan garis pada kanvas dengan melakukan klik pada icon garis di ribbon', async ({ page }) => {
   await page.goto('http://localhost:5173/');
 
   // Masuk ke kanvas

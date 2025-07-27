@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Menghapus notasi di kanvas dengan menggunakan tombol delete pada keyboard', async ({ page }) => {
+test('Menghapus garis di kanvas dengan menggunakan tombol delete pada keyboard', async ({ page }) => {
   await page.goto('http://localhost:5173/');
   
   // Masuk ke kanvas menggunakan template

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Melakukan zoom in pada tampilan', async ({ page }) => {
+test('Melakukan zoom in tampilan kanvas', async ({ page }) => {
   await page.goto('http://localhost:5173/');
   
   // Masuk ke kanvas
