@@ -13,8 +13,16 @@ test('Menggunakan shortcut "Paste" yang valid melalui tab Edit', async ({ page }
   const target = page.locator('canvas').nth(1);
   const before = await target.screenshot({path: 'tests/screenshots/TC-42/before.png'});
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 185,
+      y: 143
+    }
+  });
+
   // Copy notasi
-  await page.locator('body').press('Control+C');
+  await page.getByRole('button', { name: 'EDIT' }).click();
+  await page.getByRole('button', { name: 'Copy Ctrl+C' }).click();
 
   // Valid shortcut paste melalui tab Edit
   await page.getByRole('button', { name: 'EDIT' }).click();

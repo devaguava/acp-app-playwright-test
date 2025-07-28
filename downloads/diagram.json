@@ -1,14 +1,14 @@
 {
   "shapes": [
     {
-      "type": "goal1",
+      "type": "goal",
       "title": "Goals",
       "x": 240,
       "y": 48,
       "width": 150,
       "height": 80,
       "text": "Complex Element",
-      "id": "goal1-1753645133245-kh4l8",
+      "id": "goal-1753713222607-k1vuy",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -21,14 +21,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal2",
+      "type": "context",
       "title": "Sub Element 1",
       "x": 500,
       "y": 64,
       "width": 100,
       "height": 50,
       "text": "Sub Element 1",
-      "id": "goal2-1753645133245-c3w9l",
+      "id": "context-1753713222607-2zdc1",
       "textX": 12,
       "textY": 17,
       "fontSize": 13,
@@ -41,14 +41,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal2",
+      "type": "context",
       "title": "Sub Element 2",
       "x": 30,
       "y": 64,
       "width": 100,
       "height": 50,
       "text": "Sub Element 2",
-      "id": "goal2-1753645133245-eeka4",
+      "id": "context-1753713222607-rgih0",
       "textX": 12,
       "textY": 17,
       "fontSize": 13,
@@ -61,14 +61,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal4",
+      "type": "strategy",
       "title": "Sub Element 3",
       "x": 240,
       "y": 250,
       "width": 150,
       "height": 60,
       "text": "Sub Element 3",
-      "id": "goal4-1753645133245-0d31d",
+      "id": "strategy-1753713222607-pvypr",
       "textX": 12,
       "textY": 22,
       "fontSize": 13,
@@ -81,14 +81,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal1",
+      "type": "goal",
       "title": "Goals",
       "x": 40,
       "y": 450,
       "width": 150,
       "height": 80,
       "text": "Sub Element 4",
-      "id": "goal1-1753645133245-t74jl",
+      "id": "goal-1753713222607-v5rn9",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -101,14 +101,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal1",
+      "type": "goal",
       "title": "Goals",
       "x": 240,
       "y": 450,
       "width": 150,
       "height": 80,
       "text": "Sub Element 4",
-      "id": "goal1-1753645133245-1twyp",
+      "id": "goal-1753713222607-lrhe1",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -121,14 +121,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal1",
+      "type": "goal",
       "title": "Goals",
       "x": 440,
       "y": 450,
       "width": 150,
       "height": 80,
       "text": "Sub Element 4",
-      "id": "goal1-1753645133246-iy1nt",
+      "id": "goal-1753713222607-f27ye",
       "textX": 12,
       "textY": 32,
       "fontSize": 13,
@@ -141,14 +141,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal3",
+      "type": "solution",
       "title": "Goals",
       "x": 60,
       "y": 600,
       "width": 110,
       "height": 100,
       "text": "Sub Element 5",
-      "id": "goal3-1753645133246-r9h9b",
+      "id": "solution-1753713222607-07273",
       "textX": 12,
       "textY": 42,
       "fontSize": 13,
@@ -161,14 +161,14 @@
       "interLine": "normal"
     },
     {
-      "type": "goal3",
+      "type": "solution",
       "title": "Goals",
       "x": 360,
       "y": 600,
       "width": 110,
       "height": 100,
       "text": "Sub Element 5",
-      "id": "goal3-1753645133246-f1wg5",
+      "id": "solution-1753713222607-yuum6",
       "textX": 12,
       "textY": 42,
       "fontSize": 13,
@@ -183,9 +183,9 @@
   ],
   "connections": [
     {
-      "id": "conn-1753645133246-58kkr",
-      "from": "goal1-1753645133245-kh4l8",
-      "to": "goal2-1753645133245-c3w9l",
+      "id": "conn-1753713222607-id7az",
+      "from": "goal-1753713222607-k1vuy",
+      "to": "context-1753713222607-2zdc1",
       "points": [
         390,
         88,
@@ -197,9 +197,9 @@
       "toPoint": "left"
     },
     {
-      "id": "conn-1753645133246-z7xzj",
-      "from": "goal1-1753645133245-kh4l8",
-      "to": "goal2-1753645133245-eeka4",
+      "id": "conn-1753713222607-uxee0",
+      "from": "goal-1753713222607-k1vuy",
+      "to": "context-1753713222607-rgih0",
       "points": [
         240,
         88,
@@ -211,9 +211,9 @@
       "toPoint": "right"
     },
     {
-      "id": "conn-1753645133246-4p7hq",
-      "from": "goal1-1753645133245-kh4l8",
-      "to": "goal4-1753645133245-0d31d",
+      "id": "conn-1753713222607-vag89",
+      "from": "goal-1753713222607-k1vuy",
+      "to": "strategy-1753713222607-pvypr",
       "points": [
         315,
         128,
@@ -225,9 +225,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1753645133246-8m0nx",
-      "from": "goal4-1753645133245-0d31d",
-      "to": "goal1-1753645133245-t74jl",
+      "id": "conn-1753713222607-0efcw",
+      "from": "strategy-1753713222607-pvypr",
+      "to": "goal-1753713222607-v5rn9",
       "points": [
         315,
         310,
@@ -239,9 +239,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1753645133246-6b1hp",
-      "from": "goal4-1753645133245-0d31d",
-      "to": "goal1-1753645133245-1twyp",
+      "id": "conn-1753713222607-w15kn",
+      "from": "strategy-1753713222607-pvypr",
+      "to": "goal-1753713222607-lrhe1",
       "points": [
         315,
         310,
@@ -253,9 +253,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1753645133246-cpi80",
-      "from": "goal4-1753645133245-0d31d",
-      "to": "goal1-1753645133246-iy1nt",
+      "id": "conn-1753713222607-mmbv6",
+      "from": "strategy-1753713222607-pvypr",
+      "to": "goal-1753713222607-f27ye",
       "points": [
         315,
         310,
@@ -267,9 +267,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1753645133246-1l1jv",
-      "from": "goal1-1753645133245-t74jl",
-      "to": "goal3-1753645133246-r9h9b",
+      "id": "conn-1753713222607-ukee7",
+      "from": "goal-1753713222607-v5rn9",
+      "to": "solution-1753713222607-07273",
       "points": [
         115,
         530,
@@ -281,9 +281,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1753645133246-vceab",
-      "from": "goal1-1753645133245-1twyp",
-      "to": "goal3-1753645133246-f1wg5",
+      "id": "conn-1753713222607-39seg",
+      "from": "goal-1753713222607-lrhe1",
+      "to": "solution-1753713222607-yuum6",
       "points": [
         315,
         530,
@@ -295,9 +295,9 @@
       "toPoint": "top"
     },
     {
-      "id": "conn-1753645133246-x2etw",
-      "from": "goal1-1753645133246-iy1nt",
-      "to": "goal3-1753645133246-f1wg5",
+      "id": "conn-1753713222607-8hywu",
+      "from": "goal-1753713222607-f27ye",
+      "to": "solution-1753713222607-yuum6",
       "points": [
         515,
         530,
@@ -310,7 +310,7 @@
     }
   ],
   "metadata": {
-    "exportDate": "2025-07-27T19:38:54.559Z",
+    "exportDate": "2025-07-28T14:33:43.880Z",
     "version": "1.0"
   }
 }

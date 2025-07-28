@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diagram>
   <metadata>
-    <exportDate>2025-07-27T19:38:56.192Z</exportDate>
+    <exportDate>2025-07-28T14:33:43.446Z</exportDate>
     <version>1.0</version>
   </metadata>
   <shapes>
     <shape>
-      <id>goal1-1753645134819-t1h47</id>
-      <type>goal1</type>
+      <id>goal-1753713222156-wlsug</id>
+      <type>goal</type>
       <title>Goals</title>
       <x>240</x>
       <y>48</y>
@@ -16,8 +16,8 @@
       <text>Complex Element</text>
     </shape>
     <shape>
-      <id>goal2-1753645134819-prdef</id>
-      <type>goal2</type>
+      <id>context-1753713222156-ou5ul</id>
+      <type>context</type>
       <title>Sub Element 1</title>
       <x>500</x>
       <y>64</y>
@@ -26,8 +26,8 @@
       <text>Sub Element 1</text>
     </shape>
     <shape>
-      <id>goal2-1753645134819-9qt3f</id>
-      <type>goal2</type>
+      <id>context-1753713222156-9kmqr</id>
+      <type>context</type>
       <title>Sub Element 2</title>
       <x>30</x>
       <y>64</y>
@@ -36,8 +36,8 @@
       <text>Sub Element 2</text>
     </shape>
     <shape>
-      <id>goal4-1753645134819-aen1y</id>
-      <type>goal4</type>
+      <id>strategy-1753713222156-2u3t0</id>
+      <type>strategy</type>
       <title>Sub Element 3</title>
       <x>240</x>
       <y>250</y>
@@ -46,8 +46,8 @@
       <text>Sub Element 3</text>
     </shape>
     <shape>
-      <id>goal1-1753645134819-axhs1</id>
-      <type>goal1</type>
+      <id>goal-1753713222156-gliou</id>
+      <type>goal</type>
       <title>Goals</title>
       <x>40</x>
       <y>450</y>
@@ -56,8 +56,8 @@
       <text>Sub Element 4</text>
     </shape>
     <shape>
-      <id>goal1-1753645134819-pn3rg</id>
-      <type>goal1</type>
+      <id>goal-1753713222156-iktnt</id>
+      <type>goal</type>
       <title>Goals</title>
       <x>240</x>
       <y>450</y>
@@ -66,8 +66,8 @@
       <text>Sub Element 4</text>
     </shape>
     <shape>
-      <id>goal1-1753645134819-n95by</id>
-      <type>goal1</type>
+      <id>goal-1753713222157-0ovjj</id>
+      <type>goal</type>
       <title>Goals</title>
       <x>440</x>
       <y>450</y>
@@ -76,8 +76,8 @@
       <text>Sub Element 4</text>
     </shape>
     <shape>
-      <id>goal3-1753645134819-nz6pa</id>
-      <type>goal3</type>
+      <id>solution-1753713222157-1mplb</id>
+      <type>solution</type>
       <title>Goals</title>
       <x>60</x>
       <y>600</y>
@@ -86,8 +86,8 @@
       <text>Sub Element 5</text>
     </shape>
     <shape>
-      <id>goal3-1753645134819-p5vvp</id>
-      <type>goal3</type>
+      <id>solution-1753713222157-paacx</id>
+      <type>solution</type>
       <title>Goals</title>
       <x>360</x>
       <y>600</y>
@@ -98,49 +98,49 @@
   </shapes>
   <connections>
     <connection>
-      <id>conn-1753645134819-7fe8w</id>
-      <from>goal1-1753645134819-t1h47</from>
-      <to>goal2-1753645134819-prdef</to>
+      <id>conn-1753713222157-c2rtp</id>
+      <from>goal-1753713222156-wlsug</from>
+      <to>context-1753713222156-ou5ul</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-l7vcs</id>
-      <from>goal1-1753645134819-t1h47</from>
-      <to>goal2-1753645134819-9qt3f</to>
+      <id>conn-1753713222157-5w6ib</id>
+      <from>goal-1753713222156-wlsug</from>
+      <to>context-1753713222156-9kmqr</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-1j3xo</id>
-      <from>goal1-1753645134819-t1h47</from>
-      <to>goal4-1753645134819-aen1y</to>
+      <id>conn-1753713222157-c4fhk</id>
+      <from>goal-1753713222156-wlsug</from>
+      <to>strategy-1753713222156-2u3t0</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-cvsbo</id>
-      <from>goal4-1753645134819-aen1y</from>
-      <to>goal1-1753645134819-axhs1</to>
+      <id>conn-1753713222157-p9f6h</id>
+      <from>strategy-1753713222156-2u3t0</from>
+      <to>goal-1753713222156-gliou</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-fao16</id>
-      <from>goal4-1753645134819-aen1y</from>
-      <to>goal1-1753645134819-pn3rg</to>
+      <id>conn-1753713222157-ghw3f</id>
+      <from>strategy-1753713222156-2u3t0</from>
+      <to>goal-1753713222156-iktnt</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-jxg3n</id>
-      <from>goal4-1753645134819-aen1y</from>
-      <to>goal1-1753645134819-n95by</to>
+      <id>conn-1753713222157-67oqj</id>
+      <from>strategy-1753713222156-2u3t0</from>
+      <to>goal-1753713222157-0ovjj</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-rj18g</id>
-      <from>goal1-1753645134819-axhs1</from>
-      <to>goal3-1753645134819-nz6pa</to>
+      <id>conn-1753713222157-o4jgr</id>
+      <from>goal-1753713222156-gliou</from>
+      <to>solution-1753713222157-1mplb</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-3x0rl</id>
-      <from>goal1-1753645134819-pn3rg</from>
-      <to>goal3-1753645134819-p5vvp</to>
+      <id>conn-1753713222157-f6e39</id>
+      <from>goal-1753713222156-iktnt</from>
+      <to>solution-1753713222157-paacx</to>
     </connection>
     <connection>
-      <id>conn-1753645134819-w7xax</id>
-      <from>goal1-1753645134819-n95by</from>
-      <to>goal3-1753645134819-p5vvp</to>
+      <id>conn-1753713222157-vupvt</id>
+      <from>goal-1753713222157-0ovjj</from>
+      <to>solution-1753713222157-paacx</to>
     </connection>
   </connections>
 </diagram>

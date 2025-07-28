@@ -13,6 +13,13 @@ test('Menggunakan shortcut "Delete" yang valid melalui tab Edit', async ({ page 
   const target = page.locator('canvas').nth(1);
   const before = await target.screenshot({path: 'tests/screenshots/TC-48/before.png'});
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 185,
+      y: 143
+    }
+  });
+
   // Valid shortcut delete melalui tab Edit
   await page.getByRole('button', { name: 'EDIT' }).click();
   await page.getByRole('button', { name: 'Delete Del' }).click();

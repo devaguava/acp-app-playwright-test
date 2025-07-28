@@ -9,6 +9,13 @@ test('Menggunakan shortcut "Redo" yang valid melalui tab Edit', async ({ page })
   // Melakukan klik pada notasi
   await page.getByText('Goals').click();
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 185,
+      y: 143
+    }
+  });
+
   // Menambahkan identifier pada notasi
   await page.locator('div').filter({ hasText: /^ID Text$/ }).getByRole('textbox').click();
   await page.locator('div').filter({ hasText: /^ID Text$/ }).getByRole('textbox').fill('1');

@@ -13,6 +13,13 @@ test('Melakukan input labeling (identifier) pada notasi', async ({ page }) => {
   const target = page.locator('canvas').nth(1);
   const before = await target.screenshot({ path: 'tests/screenshots/TC-54/before.png' });
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 185,
+      y: 143
+    }
+  });
+
   // Input Labeling (Identifier)
   await page.locator('div').filter({ hasText: /^ID Text$/ }).getByRole('textbox').click();
   await page.locator('div').filter({ hasText: /^ID Text$/ }).getByRole('textbox').fill('3');

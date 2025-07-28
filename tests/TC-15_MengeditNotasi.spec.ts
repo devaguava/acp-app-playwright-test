@@ -9,6 +9,13 @@ test('Mengedit notasi dengan menambahkan teks dan mengubah font pada notasi', as
   // Menambahkan notasi ke kanvas
   await page.locator('div').filter({ hasText: /^Goals$/ }).first().click();
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 221,
+      y: 167
+    }
+  });
+
   // Menambahkan Identifier dan Deskripsi pada notasi
   await page.locator('div').filter({ hasText: /^ID Text$/ }).getByRole('textbox').click();
   await page.locator('div').filter({ hasText: /^ID Text$/ }).getByRole('textbox').fill('1');

@@ -13,6 +13,13 @@ test('Menggunakan shortcut "Select All" yang valid melalui keyboard', async ({ p
   const target = page.locator('canvas').nth(1);
   const before = await target.screenshot({path: 'tests/screenshots/TC-37/before.png'});
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 185,
+      y: 143
+    }
+  });
+
   // Valid shortcut select all menggunakan keyboard
   await page.locator('body').press('Control+A');
 

@@ -13,6 +13,13 @@ test('Menggunakan shortcut "Duplicate" yang valid melalui tab Edit', async ({ pa
   const target = page.locator('canvas').nth(1);
   const before = await target.screenshot({path: 'tests/screenshots/TC-43/before.png'});
 
+  await page.locator('canvas').nth(1).click({
+    position: {
+      x: 185,
+      y: 143
+    }
+  });
+
   // Valid shortcut duplicate melalui tab Edit
   await page.getByRole('button', { name: 'EDIT' }).click();
   await page.getByRole('button', { name: 'Duplicate Ctrl+D' }).click();
